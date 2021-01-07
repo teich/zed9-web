@@ -162,8 +162,17 @@
   }
   
   /* ---- Home ---- */
-  @media all and (max-width: 660px) {
+  ul.images {
+    max-width: 640px;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+  }
+
+  /* @media all and (max-width: 660px) {
     ul.images img {
       border-radius: 15px;
     }
-  }  
+  }   */
