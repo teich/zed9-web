@@ -171,6 +171,19 @@
     grid-row-gap: 2rem;
   }
 
+  @media all and (max-width: 660px) {
+    ul.apps {
+      grid-template-columns: repeat(3, auto);
+      grid-column-gap: auto;
+      grid-row-gap: 0.5rem;
+      width: 288px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  
+
   /* @media all and (max-width: 660px) {
     ul.images img {
       border-radius: 15px;
