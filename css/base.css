@@ -172,7 +172,7 @@
   }
 
   @media all and (max-width: 660px) {
-    ul.apps {
+    ul.images {
       grid-template-columns: repeat(3, auto);
       grid-column-gap: auto;
       grid-row-gap: 0.5rem;
